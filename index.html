@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo-лист</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div id="header">
+        <input type="text" placeholder="Добавить задачу...">
+        <span class="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
+    </div>
+
+    <div id="container">
+		<ul class="uplist">
+			<li>
+                <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                <span class="trash"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                Сверстать To-Do list
+            </li>
+            <li>
+                <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                <span class="trash"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                Добавить логики
+            </li>
+            <li>
+                <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                <span class="trash"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                Не воспользоваться библиотеками
+            </li>
+            <li>
+                <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                <span class="trash"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                Собрать фидбеки
+            </li>
+            <li>
+                <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                <span class="trash"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                Исправить недочеты
+            </li>
+		</ul>
+    </div>
+
+    <div id="footer">
+        <span class="completedlist">
+            Выполненных задач...
+        </span>
+        <span class="history"><i class="fa fa-history" aria-hidden="true"></i></span>
+        <ul class="downlist">
+
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="js/todos.js"></script>
+</body>
+</html>
